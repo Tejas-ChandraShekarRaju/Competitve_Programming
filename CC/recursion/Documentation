@@ -1,0 +1,7 @@
+1.Write down the functional definition of the recursive function (base case,and the other cases)
+2.fibonacci sequence with recursion is time consuming but with memoization it is as good as iterative but not! ..!..
+3.how many numbers are there between a given threshold
+--->n=(logFn)+(1/2log5)/(logϕ)
+4.General formula to find the nth fibonacci number
+--->there is you have not learnt it
+5.Write the recursive tree to understand and write better code for recursion (learnt from permutations)

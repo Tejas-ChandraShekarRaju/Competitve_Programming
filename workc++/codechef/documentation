@@ -1,0 +1,2 @@
+1.seg fault even for accessing uninitialized memory
+2.how many bits required for a given number log(base2)n
