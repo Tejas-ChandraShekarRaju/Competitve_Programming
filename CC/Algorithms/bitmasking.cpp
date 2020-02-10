@@ -1,6 +1,9 @@
 #include<iostream>
+#include<math.h>
 
 using namespace std;
+
+
 
 /*
 division O(n^2)
@@ -91,6 +94,17 @@ int binary_to_decimal(int n)
         }
     return dec_value;
 }
+
+
+int main()
+{
+
+	
+
+
+return 0;
+}
+
                 
 
 

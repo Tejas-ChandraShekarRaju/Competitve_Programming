@@ -22,18 +22,27 @@ int main()
                     t = t-1;
                     rest[t] =rest[t]-1;      
                 }
+                
+               // if(rest[s-1] == 1) cout<<0<<endl;
 
+                //else
+               // {
+                     bool found =false;
+                     s = s-1;
+                    int left = s-1;
+                    int right = s+1;
 
-            bool found =false;
-            s = s-1;
-            int left = s-1;
-            int right = s+1;
+                        if(!left>=0) left = 0;
 
-                while(!found)
+                        if(!right<n) right = n-1; 
+
+                while(!found )
                 {
-                        if(left>=0 && rest[left] == 1)  found = true;
 
-                        if(right<n && rest[right] == 1) found = true;
+
+                        if(left>=0)  if(rest[left] == 1)  found = true;
+
+                        if(right<n)  if(rest[right] == 1) found = true;
 
                         right++;
                         left--;
@@ -43,7 +52,11 @@ int main()
 
             int result = min(abs(left-s),abs(s-right));
 
-            cout<<result-1<<endl;    
+            cout<<result-1<<endl;   
+
+                //}
+
+            
 
 
 
