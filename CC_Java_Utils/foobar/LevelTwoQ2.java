@@ -3,7 +3,7 @@ package foobar;
 import java.math.BigInteger;
 
 /*
-I initially though we migth have to generate all subsets and check the maximum product which is also true but below points will suffice.
+I initially thought I migth have to generate all subsets and check the maximum product which is also true but below points will suffice.
 
 1.The truth lies in keeping track of the negative count, zero count and the max_negative_num.
 
