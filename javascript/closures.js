@@ -1,3 +1,8 @@
 function closureExamples(){
     
 }
+
+function oneMoreExample(){
+
+    
+}
