@@ -7,6 +7,10 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 
+/*
+
+https://www.hackerrank.com/challenges/java-priority-queue/problem
+*/
 class Student implements Comparable<Student>{
      
     private int id;
