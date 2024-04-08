@@ -9,6 +9,13 @@
 
    ### Practice Group 1
       1. https://leetcode.com/contest/weekly-contest-391/problems/count-alternating-subarrays/
-      2. https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/submissions/1222155038/ - Arriving at this solution is super hard. 
+      2. https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/submissions/1222155038/ - Arriving at this solution is super hard.
+  
+## Strings
+1. https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/description/
+   KTA - You cannot do inplace updates on strings in python/Java because Strings are immutable. Instead what i did in python is used a list to do in place update and later
+   converted that list to string and returned the result. Finding normal distance between characters and cyclic distance. Just write down few examples and you'll figure out.
+   Normal distance = s[i]-97-j -> j is a variable running through from 0-26. So If s[i]= a and you have to find distance to c then it'll be abs((97-97) - 2) = 2
+   Cyclic distance = Noraml distance - 26 will be cyclic distance. Distance between a-z is 1 because of the cyclic nature. 
 
    
